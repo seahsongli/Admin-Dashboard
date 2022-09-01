@@ -19,15 +19,20 @@
             <div>Tasks</div>
             <div>Communities</div>
 
-            <div>Settings</div>
-            <div>Support</div>
-            <div>Privacy</div>
+            <div class = "general">
+                <div>Settings</div>
+                <div>Support</div>
+                <div>Privacy</div>
+            </div>
         </div>
 
         <div class = "header">
             <div class = "header-top">
-                <nav>Search here</nav>
-                <div>
+                <form id="form"> 
+                    <input type="search" id="search-bar" name="searched-item" placeholder="Search...">
+                    <button>Search</button>
+                  </form>
+                <div class = "header-top-right">
                     <div class="logo"> Bell</div>
                     <div class="picture">Profile picture</div>
                     <div class="name">Morgan Oakly</div>
@@ -36,7 +41,7 @@
 
 
             <div class = "header-bottom">
-                <div>
+                <div class = "header-bottom-left">
                     <div>Profile picture</div>
                     <div>
                         <p>Hi there,</p>
@@ -44,7 +49,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class = "header-bottom-right">
                     <button>New</button>
                     <button>Upload</button>
                     <button>Share</button>
@@ -53,7 +58,9 @@
             
         </div>
         <div class = "content">
+            <p>Your Projects</p>
             <div class = "projects">
+                
                 <div class = "card">
                     <p class = "title">Super Cool Project</p>
                     <p>block 1</p>
@@ -89,24 +96,28 @@
 
             <div class = "announcements">
                 <p>Announcements</p>
-                <div>
-                    <p class = "title">Site Maintenance</p>
-                    <p>test 1</p>
+                <div class = "box">
+                    <div class = "box1">
+                        <p class = "title">Site Maintenance</p>
+                        <p>test 1</p>
+                    </div>
+    
+                    <div class = "box2">
+                        <p class = "title">Community Share Day</p>
+                        <p>test 2</p>
+                    </div>
+    
+                    <div class = "box3">
+                        <p class = "title">Updated Privacy Policy</p>
+                        <p>test 3</p>
+                    </div>
                 </div>
-
-                <div>
-                    <p class = "title">Community Share Day</p>
-                    <p>test 2</p>
-                </div>
-
-                <div>
-                    <p class = "title">Updated Privacy Policy</p>
-                    <p>test 3</p>
-                </div>
+               
 
             </div>
 
             <div class = "trending">
+                <p class = "title">Trending</p>
                 <div>trend1</div>
                 <div>trend2</div>
                 <div>trend3</div>
